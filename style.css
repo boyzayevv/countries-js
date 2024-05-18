@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    /* width: 550px; */
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.relative-icon{
+    position: relative;
+    top: -5px;
+}
+.input-div{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    border: 2px solid rgb(13, 67, 121);
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: outline 0.3s ease;
+    padding: 10px;
+
+}
+.input-div:focus-within{
+    outline: 2px solid dodgerblue;
+}
+/* @media screen and (max-width: 750px) {
+    input{
+        width: 300px;
+    }
+} */
